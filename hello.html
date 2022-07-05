@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        a:active{
+            color:green;
+        }
+        a:hover{
+            color:yellow;
+        }
+        a:visited{
+            color:red;
+        }
+        a:link{
+            color:violet;
+        }
+        a:focus{
+            color:white;
+        }
+        ol li{
+            color:blue;
+            text-decoration:underline;
+        }
+        #select{
+            font: size 200px;
+        }
+    </style>
+    <title>Page Title</title>
+</head>
+<body>
+    <div id = "1div">
+        여기는 div1
+        <ol>
+            <p id ="#m1"></p>여기는 ol ㅎㅇㅎㅇ
+            <li id ="select">
+                <h2>여기는 li ol일 경우 번호로 체킹</h2>
+            </li>
+        </ol>
+
+        <h1>
+            여기는 h1으로 강조한곳
+        </h1>
+
+        <p> 문단태그 사용 하고 div1 끝</p>
+    </div>
+    <div>
+        여기는 div2
+        <p> 문단태그 사용 </p>
+        <p> 문단태그 <br> 사용 하고 줄바꿈 </p>
+        <p> 문단태그 사용하고 &nbsp; 띄어쓰기 </p>
+        <p> <pre> 프리태그사용해서   자유롭게 작성ㅋㅋ </pre> </p>
+        <p> div2 끝 </p>
+    </div>
+    <div>
+        <tt> 형식태그 사용해서 타자기글자모양 </tt>
+        <ul>
+            <li>
+                li태그 사용해서 이쁘게 만듬 이건 문양으로 체킹
+            </li>
+            <a href="hello world" title="말풍선" target="_blank">링크테스트</a>
+        
+        </ul>
+        <p> 책갈피 구현가능 </p>
+        <a href="#m1">위로올라가버리기</a>
+        <img src="http://www.img.com/img/hello.jpg">
+        <img src="https://via.placeholder.com/500x200" alt="대체택스트" width="너비" height="높이">
+    </div>
+    <div>
+        <table border="1">
+            <tr>
+                <th>
+                    1행 1열
+                </th>
+                <td>
+                    1행 2열
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2행 1열
+                </td>
+            </tr>
+        </table>
+        <table border="1">
+            <tr>
+                <td>
+                    1행 1열
+                </td>
+                <td>
+                    1행 2열
+                </td>
+            </tr>
+            <tr>
+                <td colspan ="2">
+                    2행 1열 열확장
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">
+                    3행 1열 행확장
+                </td>
+            </tr>
+        </table>
+
+        <form action="#" method="get">
+            <fieldset>
+              <legend>Shipping Address</legend> 
+            <p>name: <input type="text" name="Name" /></p>
+            <p>Address: <input type="text" name="Adress" /></p>
+            <p>City:  <input type="text" name="City" ></p>
+            <p>State: <input type="text" name="Stat" /></p>
+            <p>zip: <input type="text" name="Zip" /></p>
+          </fieldset>
+        </form>
+          
+    </div>
+</body>
+</html>
