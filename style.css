@@ -14,21 +14,27 @@
     left: xyz;
 }*/
 
-html body { 
-    box-sizing: border-box;
-}
 
-.main_pic{
-    position: relative;
-    margin:auto;
-    overflow:hidden;
-    border: 1px solid red;
-}
 
+.img_main{
+    display: block;
+    margin: auto;
+}
+body{
+    background-color: #2F424E;
+}
 div{
     border-color: green;
     border: 2px solid;
 }
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .rank_main{
     width: 100%;
